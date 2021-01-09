@@ -1,6 +1,8 @@
 # ロボットシステム学　課題1
 先生が講義用に作ってくださったデバイスドライバを少し改変したものです。
 ## 概要
+<img src="https://user-images.githubusercontent.com/72370342/104086478-bf6e0880-529b-11eb-952d-6e3b5722844c.jpg" width="320px">
+
 交通信号機を再現しました。  
 歩行者用信号が赤に変わった後、車両用信号も赤に変わります。
 ## 動作環境
@@ -15,6 +17,7 @@
 
 ## 使用方法
 ### 接続
+<img src="https://user-images.githubusercontent.com/72370342/104086478-bf6e0880-529b-11eb-952d-6e3b5722844c.jpg" width="320px">
 GPIO、抵抗、LED、GNDの順につなぎます。  
 対応するGPIOとLEDの組み合わせは以下の通りです。  
 ＜歩行者用＞　　青　GPIO25  
