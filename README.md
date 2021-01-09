@@ -1,7 +1,8 @@
 # ロボットシステム学　課題1
 先生が講義用に作ってくださったデバイスドライバを少し改変したものです。
 ## 概要
-<img src="https://user-images.githubusercontent.com/72370342/104086478-bf6e0880-529b-11eb-952d-6e3b5722844c.jpg" width="320px">
+
+<img src="https://user-images.githubusercontent.com/72370342/104086607-c21d2d80-529c-11eb-9e27-e6c34a59ca52.jpg" width="300px">
 
 交通信号機を再現しました。  
 歩行者用信号が赤に変わった後、車両用信号も赤に変わります。
@@ -17,14 +18,17 @@
 
 ## 使用方法
 ### 接続
-<img src="https://user-images.githubusercontent.com/72370342/104086478-bf6e0880-529b-11eb-952d-6e3b5722844c.jpg" width="320px">
-GPIO、抵抗、LED、GNDの順につなぎます。  
+<img src="https://user-images.githubusercontent.com/72370342/104086478-bf6e0880-529b-11eb-952d-6e3b5722844c.jpg" width="200px">  
+
+GPIO、抵抗、LED、GNDの順につなぎます。
+
 対応するGPIOとLEDの組み合わせは以下の通りです。  
-＜歩行者用＞　　青　GPIO25  
-　　　　　　　　赤　GPIO24  
-＜車両用＞　　　青　GPIO23  
-　　　　　　　　黄　GPIO22  
-　　　　　　　　赤　GPIO21  
+
+＜歩行者用＞　　青　GPIO25    
+　　　　　　　　赤　GPIO24    
+＜車両用＞　　　青　GPIO23    
+　　　　　　　　黄　GPIO22    
+　　　　　　　　赤　GPIO21    
 ### 実行
 ```
 git clone https://github.com/masakifukuchi/robosys_device_driver.git  
