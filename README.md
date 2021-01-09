@@ -32,7 +32,7 @@ GPIO、抵抗、LED、GNDの順につなぎます。
 ### 実行
 ```
 git clone https://github.com/masakifukuchi/robosys_device_driver.git  
-cd myled
+cd robosys_device_driver
 make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
