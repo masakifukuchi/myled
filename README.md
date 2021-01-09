@@ -1,5 +1,5 @@
 # ロボットシステム学　課題1
-先生が講義用に作ってくださったデバイスドライバを少しだけ改変したものです。
+先生が講義用に作ってくださったデバイスドライバを少し改変したものです。
 ## 概要
 交通信号機を再現しました。  
 歩行者用信号が赤に変わった後、車両用信号も赤に変わります。
@@ -44,5 +44,6 @@ echo 0 > /dev/myled0
 ```
 
 ## 動画
+https://youtu.be/YxAS4ktgqR0
 ## ライセンス
 [GNU General Public License v3.0](https://github.com/masakifukuchi/robosys_device_driver/blob/main/LICENSE)
