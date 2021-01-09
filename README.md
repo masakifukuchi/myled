@@ -51,6 +51,6 @@ echo 0 > /dev/myled0
 ```
 
 ## 動画
-https://youtu.be/YxAS4ktgqR0
+<img src="https://youtu.be/YxAS4ktgqR0" width=320px>　　
 ## ライセンス
 [GNU General Public License v3.0](https://github.com/masakifukuchi/robosys_device_driver/blob/main/LICENSE)
